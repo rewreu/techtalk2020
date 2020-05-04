@@ -1,0 +1,20 @@
+{
+    "model_inst_name": "kmlbatchtestBatch33features",
+    "model_inst_desc": "Blackbox model for on-demand deployments",
+    "model_inst_config": {
+      "model_type": "BLACKBOX",
+      "problem_type": "BLACKBOX",
+      "db_user": "",
+      "db_pass": "",
+      "blackbox_module": "inference_service",
+      "blackbox_function": "predict_batch",
+      "container": "docker.io/rewreu/kmlbatchtest33features:latest",
+      "input_record_type": [{"col_name": "c1", "col_type": "int"}, {"col_name": "c2", "col_type": "int"}, {"col_name": "c3", "col_type": "int"}, {"col_name": "c4", "col_type": "int"}, {"col_name": "c5", "col_type": "int"}, {"col_name": "c6", "col_type": "int"}, {"col_name": "c7", "col_type": "int"}, {"col_name": "c8", "col_type": "int"}, {"col_name": "c9", "col_type": "int"}, {"col_name": "c10", "col_type": "int"}, {"col_name": "c11", "col_type": "int"}, {"col_name": "c12", "col_type": "int"}, {"col_name": "c13", "col_type": "int"}, {"col_name": "c14", "col_type": "int"}, {"col_name": "c15", "col_type": "int"}, {"col_name": "c16", "col_type": "int"}, {"col_name": "c17", "col_type": "int"}, {"col_name": "c18", "col_type": "int"}, {"col_name": "c19", "col_type": "int"}, {"col_name": "c20", "col_type": "int"}, {"col_name": "c21", "col_type": "int"}, {"col_name": "c22", "col_type": "int"}, {"col_name": "c23", "col_type": "int"}, {"col_name": "c24", "col_type": "int"}, {"col_name": "c25", "col_type": "int"}, {"col_name": "c26", "col_type": "int"}, {"col_name": "c27", "col_type": "int"}, {"col_name": "c28", "col_type": "int"}, {"col_name": "c29", "col_type": "int"}, {"col_name": "c30", "col_type": "int"}, {"col_name": "c31", "col_type": "int"}, {"col_name": "c32", "col_type": "int"}, {"col_name": "c33", "col_type": "int"}],
+      "output_record_type": [
+        {
+          "col_name": "prediction",
+          "col_type": "int"
+        }
+      ]
+    }
+  }
